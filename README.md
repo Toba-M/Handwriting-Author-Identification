@@ -12,7 +12,31 @@ This project is designed to identify the author of handwriting samples using mac
 
 The project is organized as follows:
 ```
-project_name/ │ ├── README.md # Documentation for the project ├── requirements.txt # List of dependencies for the project ├── FINAL_TEST.ipynb # The main notebook file │ ├── deployment/ # Contains the Flask app and related files │ ├── app.py # Flask app entry point │ ├── templates/ # HTML files for the web interface │ ├── static/ # CSS, JavaScript, images │ └── other files # Other deployment-related files │ ├── handwriting/ # Handwriting folder │ ├── preprocessing.py # Preprocessing scripts │ ├── model.py # Model-related code │ └── other files # Scripts and modules │ ├── source6/ # Contains preprocessed images │ ├── image1.png # Example image │ ├── image2.png │ └── ... # Other preprocessed images │ └── test/ # Test folder ├── test_image1.png # Example test image ├── test_image2.png └── ... # Other test files 
 ```
-
-
+project_name/
+│
+├── README.md              # Documentation for the project
+├── FINAL_TEST.ipynb      # The main notebook file
+│
+├── deployment/           # Contains the Flask app and related files
+│   ├── app.py           # Flask app entry point
+│   ├── templates/       # HTML files for the web interface
+│   ├── static/         # CSS, JavaScript, images
+│   └── other files     # Other deployment-related files
+│
+├── handwriting/         # Handwriting folder
+│   ├── preprocessing.py # Preprocessing scripts
+│   ├── model.py        # Model-related code
+│   └── other files     # Scripts and modules
+│
+├── source6/            # Contains preprocessed images
+│   ├── image1.png      # Example image
+│   ├── image2.png
+│   └── ...            # Other preprocessed images
+│
+└── test/              # Test folder
+    ├── test_image1.png # Example test image
+    ├── test_image2.png
+    └── ...            # Other test files
+```
+```
